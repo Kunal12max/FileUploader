@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading-top">GeekForGeeks File Storage</h1>
+
+    <!-- Upload Form -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <h2 class="heading">Upload File</h2>
+      <div class="input">
+        <input type="file" name="file" class="file-upload">
+        <br>
+        <button type="submit" class="upload-file">Upload</button>
+      </div>
+    </form>
+
+    <!-- Delete Form (Option 1: simple input) -->
+    <form action="/delete" method="post">
+      <h2 class="heading">Delete File</h2>
+      <div class="delete-files">
+        <input type="text" name="fileName" placeholder="Enter filename to delete">
+        <br>
+        <button type="submit" class="delete">Delete</button>
+      </div>
+    </form>
+
+    <!-- Uploaded Files -->
+    <div class="uploaded-files">
+      <h2>Uploaded Files</h2>
+    </div>
+  </div>
+</body>
+</html>

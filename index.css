@@ -1,0 +1,35 @@
+.container{
+    margin: 0px;
+    margin-left:10px;
+}
+.upload-file{
+    margin-top: 3%;
+   background-color:blue;
+   color: white;
+   width:20%;
+   height: 20px;
+   margin-left: 20px;
+}
+.delete{
+    margin-top: 3%;
+    background-color: red;
+    width:20%;
+    color: white;
+    height: 20px;
+    margin-left: 20px;
+}
+.input{
+    width:50%;
+    background-color: aliceblue;
+    border:1px solid black;
+    
+}
+.delete-files{
+    width:50%;
+    background-color: aliceblue;
+    border:1px solid black;
+}
+.file-upload{
+    margin-left: 20px;
+    margin-top: 10px;
+}
